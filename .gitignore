@@ -1,0 +1,15 @@
+.DS_Store
+.classpath
+.project
+.settings/
+.idea/
+/**/build/
+/**/target/
+/**/test-output/
+/**/bin/
+/**/logs
+/**/transaction-logs
+/**/.checkstyle
+/**/tomcat/
+/**/checkstyle-cachefile
+release.*
