@@ -10,6 +10,6 @@ Spring-boot, Jax-RS, Openshift
 *oc expose svc/spring-boot-helloworld*
 
 ## Call the Service
-*https://<openshift_api_host:port>/openshift/rest/hello?name=test*
+*https://<openshift_service_host>/openshift/rest/hello?name=test*
 
 
