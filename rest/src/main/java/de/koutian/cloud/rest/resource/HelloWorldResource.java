@@ -1,5 +1,7 @@
 package de.koutian.cloud.rest.resource;
 
+import java.net.InetAddress;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -13,7 +15,7 @@ public class HelloWorldResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public String sayHello(@QueryParam(value = "name") final String name) {
-        return "Hello Baby " + name;
+    public String sayHello(@QueryParam(value = "name") final String name) throws Exception {
+        return InetAddress.getLocalHost() + " says: Hello " + name;
     }
 }
