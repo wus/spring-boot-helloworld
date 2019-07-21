@@ -1,6 +1,6 @@
 # spring-boot-helloworld
 
-Spring-boot, Resteasy, Openshift
+Spring-boot, Jax-RS, Openshift
 
 ## Add Application to Openshift
 
