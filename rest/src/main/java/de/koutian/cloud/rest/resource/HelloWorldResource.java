@@ -14,6 +14,6 @@ public class HelloWorldResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public String sayHello(@QueryParam(value = "name") final String name) {
-        return "Hello " + name;
+        return "Hello Baby " + name;
     }
 }
