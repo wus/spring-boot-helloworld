@@ -16,6 +16,6 @@ public class HelloWorldResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public String sayHello(@QueryParam(value = "name") final String name) throws Exception {
-        return InetAddress.getLocalHost() + " says: Servus " + name;
+        return InetAddress.getLocalHost() + " says: Hello " + name;
     }
 }
